@@ -1,0 +1,22 @@
+E:\SHOP\SHOP\bin\Debug\SHOP.exe.config
+E:\SHOP\SHOP\bin\Debug\SHOP.exe
+E:\SHOP\SHOP\bin\Debug\SHOP.pdb
+E:\SHOP\SHOP\obj\Debug\Urun Tarih Takibi.csprojAssemblyReference.cache
+E:\SHOP\SHOP\obj\Debug\SHOP.Ana_Form.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Ayarlar.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Giris.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Kullanıc_Sil.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Kullanıcı_Duzenle.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Kullanıcı_Ekle.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Tarih_Kontrol_Bildirim.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Trih_Kontrol_Form.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Urunu_Sil.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Urun_Guncelle.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Urunler.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Urun_Ekle.resources
+E:\SHOP\SHOP\obj\Debug\Urun Tarih Takibi.csproj.GenerateResource.cache
+E:\SHOP\SHOP\obj\Debug\Urun Tarih Takibi.csproj.CoreCompileInputs.cache
+E:\SHOP\SHOP\obj\Debug\Urun Tarih Takibi.csproj.CopyComplete
+E:\SHOP\SHOP\obj\Debug\SHOP.exe
+E:\SHOP\SHOP\obj\Debug\SHOP.pdb

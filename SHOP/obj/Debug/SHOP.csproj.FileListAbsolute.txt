@@ -1,0 +1,72 @@
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\bin\Debug\SHOP.exe.config
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\bin\Debug\SHOP.exe
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\bin\Debug\SHOP.pdb
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\bin\Debug\MetroFramework.dll
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.csprojResolveAssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.Ana_Form.resources
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.Giris.resources
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.Urunu_Sil.resources
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.Urun_Guncelle.resources
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.Urunler.resources
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.Urun_Ekle.resources
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.csproj.GenerateResource.Cache
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.exe
+C:\Users\muham\OneDrive\Belgeler\visual studio 2012\Projects\SHOP\SHOP\obj\Debug\SHOP.pdb
+E:\win 8.1\SHOP\SHOP\bin\Debug\SHOP.exe.config
+E:\win 8.1\SHOP\SHOP\bin\Debug\SHOP.exe
+E:\win 8.1\SHOP\SHOP\bin\Debug\SHOP.pdb
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.csprojAssemblyReference.cache
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.Ana_Form.resources
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.Giris.resources
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.Urunu_Sil.resources
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.Urun_Guncelle.resources
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.Urunler.resources
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.Urun_Ekle.resources
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.csproj.GenerateResource.cache
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.csproj.CoreCompileInputs.cache
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.csproj.CopyComplete
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.exe
+E:\win 8.1\SHOP\SHOP\obj\Debug\SHOP.pdb
+C:\Users\User\source\repos\SHOP\SHOP\bin\Debug\SHOP.exe.config
+C:\Users\User\source\repos\SHOP\SHOP\bin\Debug\SHOP.exe
+C:\Users\User\source\repos\SHOP\SHOP\bin\Debug\SHOP.pdb
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Ana_Form.resources
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Giris.resources
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Urunu_Sil.resources
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Urun_Guncelle.resources
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Urunler.resources
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Urun_Ekle.resources
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.csproj.GenerateResource.cache
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.csproj.CopyComplete
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.exe
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.pdb
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Tarih_Kontrol_Bildirim.resources
+C:\Users\User\source\repos\SHOP\SHOP\obj\Debug\SHOP.Trih_Kontrol_Form.resources
+E:\SHOP\SHOP\bin\Debug\SHOP.exe.config
+E:\SHOP\SHOP\bin\Debug\SHOP.exe
+E:\SHOP\SHOP\bin\Debug\SHOP.pdb
+E:\SHOP\SHOP\obj\Debug\SHOP.csprojAssemblyReference.cache
+E:\SHOP\SHOP\obj\Debug\SHOP.Ana_Form.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Giris.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Tarih_Kontrol_Bildirim.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Trih_Kontrol_Form.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Urunu_Sil.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Urun_Guncelle.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Urunler.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Urun_Ekle.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.csproj.GenerateResource.cache
+E:\SHOP\SHOP\obj\Debug\SHOP.csproj.CoreCompileInputs.cache
+E:\SHOP\SHOP\obj\Debug\SHOP.csproj.CopyComplete
+E:\SHOP\SHOP\obj\Debug\SHOP.exe
+E:\SHOP\SHOP\obj\Debug\SHOP.pdb
+E:\SHOP\SHOP\obj\Debug\SHOP.Ayarlar.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Kullanıcı_Ekle.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Kullanıc_Sil.resources
+E:\SHOP\SHOP\obj\Debug\SHOP.Kullanıcı_Duzenle.resources

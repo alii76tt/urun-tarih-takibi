@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E32456E4-D7CD-4B6A-BDEE-B82C6F3EC17E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SHOP</RootNamespace>
+    <AssemblyName>SHOP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\..\Downloads\Bunifu DLL\Bunifu DLL\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\..\Downloads\MetroFramework\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ana formlar\Ana_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ana formlar\Ana_Form.Designer.cs">
+      <DependentUpon>Ana_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ayarlar\Ayarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayarlar\Ayarlar.Designer.cs">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ana formlar\Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ana formlar\Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ayarlar\Kullanıc_Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayarlar\Kullanıc_Sil.Designer.cs">
+      <DependentUpon>Kullanıc_Sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ayarlar\Kullanıcı_Duzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayarlar\Kullanıcı_Duzenle.Designer.cs">
+      <DependentUpon>Kullanıcı_Duzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ayarlar\Kullanıcı_Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayarlar\Kullanıcı_Ekle.Designer.cs">
+      <DependentUpon>Kullanıcı_Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\Sql_Connection.cs" />
+    <Compile Include="ana formlar\Tarih_Kontrol_Bildirim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ana formlar\Tarih_Kontrol_Bildirim.Designer.cs">
+      <DependentUpon>Tarih_Kontrol_Bildirim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ana formlar\Trih_Kontrol_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ana formlar\Trih_Kontrol_Form.Designer.cs">
+      <DependentUpon>Trih_Kontrol_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ana formlar\Urunu_Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ana formlar\Urunu_Sil.Designer.cs">
+      <DependentUpon>Urunu_Sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ana formlar\Urun_Guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ana formlar\Urun_Guncelle.Designer.cs">
+      <DependentUpon>Urun_Guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ana formlar\Urunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ana formlar\Urunler.Designer.cs">
+      <DependentUpon>Urunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ana formlar\Urun_Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ana formlar\Urun_Ekle.Designer.cs">
+      <DependentUpon>Urun_Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Urun_Tarih_TakibiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Urun_Tarih_TakibiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Urun_Tarih_TakibiDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Urun_Tarih_TakibiDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Urun_Tarih_TakibiDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Urun_Tarih_TakibiDataSet2.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ana formlar\Ana_Form.resx">
+      <DependentUpon>Ana_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayarlar\Ayarlar.resx">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ana formlar\Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayarlar\Kullanıc_Sil.resx">
+      <DependentUpon>Kullanıc_Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayarlar\Kullanıcı_Duzenle.resx">
+      <DependentUpon>Kullanıcı_Duzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayarlar\Kullanıcı_Ekle.resx">
+      <DependentUpon>Kullanıcı_Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ana formlar\Tarih_Kontrol_Bildirim.resx">
+      <DependentUpon>Tarih_Kontrol_Bildirim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ana formlar\Trih_Kontrol_Form.resx">
+      <DependentUpon>Trih_Kontrol_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ana formlar\Urunu_Sil.resx">
+      <DependentUpon>Urunu_Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ana formlar\Urun_Guncelle.resx">
+      <DependentUpon>Urun_Guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ana formlar\Urunler.resx">
+      <DependentUpon>Urunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ana formlar\Urun_Ekle.resx">
+      <DependentUpon>Urun_Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Urun_Tarih_TakibiDataSet.xsc">
+      <DependentUpon>Urun_Tarih_TakibiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Urun_Tarih_TakibiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Urun_Tarih_TakibiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Urun_Tarih_TakibiDataSet.xss">
+      <DependentUpon>Urun_Tarih_TakibiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Urun_Tarih_TakibiDataSet1.xsc">
+      <DependentUpon>Urun_Tarih_TakibiDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Urun_Tarih_TakibiDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Urun_Tarih_TakibiDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Urun_Tarih_TakibiDataSet1.xss">
+      <DependentUpon>Urun_Tarih_TakibiDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Urun_Tarih_TakibiDataSet2.xsc">
+      <DependentUpon>Urun_Tarih_TakibiDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Urun_Tarih_TakibiDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Urun_Tarih_TakibiDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Urun_Tarih_TakibiDataSet2.xss">
+      <DependentUpon>Urun_Tarih_TakibiDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loupe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compliant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitoring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checksproducts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
